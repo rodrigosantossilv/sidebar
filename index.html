@@ -3,44 +3,99 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <nav class="menu-lateral">
-  <div class="btn-expandir">
-    <i class="bi bi-list-ul" id="btn-exp"></i>
-  </div>
-    
-    <ul>
-        <li class ="item-menu ativo">
-            <a href="#">
-                <span class="icon"><i class="bi bi-house-door"></i></span>
-                <span class="txt-link">Caminhoes</span>
-            </a>
-        </li>
-        <li class ="item-menu">
-            <a href="#">
-                <span class="icon"><i class="bi bi-kanban"></i></span>
-                <span class="txt-link">Reboques</span>
-            </a>
-        </li>
-        <li class ="item-menu">
-            <a href="#">
-                <span class="icon"><i class="bi bi-calendar3"></i></span>
-                <span class="txt-link">Mapa</span>
-            </a>
-        </li>
-        <li class ="item-menu">
-            <a href="#">
-                <span class="icon"><i class="bi bi-person-circle"></i></span>
-                <span class="txt-link">Outros</span>
-            </a>
-        </li>
+        <div class="btn-expandir">
+            <i class="bi bi-list-ul" id="btn-exp"></i>
+        </div>
         
-
+        <ul>
+            <li class="item-menu ativo">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-house-door"></i></span>
+                    <span class="txt-link">Caminhoes</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-kanban"></i></span>
+                    <span class="txt-link">Reboques</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-calendar3"></i></span>
+                    <span class="txt-link">Mapa</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-person-circle"></i></span>
+                    <span class="txt-link">Outros</span>
+                </a>
+            </li>
+        </ul>
     </nav>
+
+    <div class="content">
+        <div class="card-container" id="caminhoes">
+            <div class="card">
+                <img src="/sidebar/img/Volvo-VM-ate-2014.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="/path/to/file1.zip" class="btn btn-primary" download>Baixar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/sidebar/img/png-transparent-volvo-fh-ab-volvo-volvo-trucks-car-volvo-freight-transport-truck-car-thumbnail.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/sidebar/img/Captura-de-tela-2024-05-15-085707.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            
+            <div class="card">
+                <img src="/sidebar/img/Ficha-tecnica-Mercedes-Benz-Axor-2041.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Esse mod vem 113h  topline, scania stremiline e o axor</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/sidebar/img/D_NQ_NP_832029-MLB77189025710_072024-O.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Scania R higline</h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+
+            <!-- Repita o bloco acima para os demais cards -->
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
